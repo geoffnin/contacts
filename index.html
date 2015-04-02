@@ -15,12 +15,18 @@
       <core-list data="{{data}}" flex>
         <template>
           <div class="row">
+            <core-image class="avatar"
+                        src="{{model.avatar}}"
+                        preload
+                        sizing="cover">
+            </core-image>
             <div>{{model.name}}</div>
           </div>
         </template>
       </core-list>
     </template>
 
+    <script src="bower_components/Faker/build/build/faker.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
