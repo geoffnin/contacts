@@ -1,0 +1,19 @@
+{
+  "name": "contacts",
+  "version": "0.0.1",
+  "authors": [
+    "Geoff Nin <geoff.nin@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-list": "Polymer/core-list",
+    "core-image": "Polymer/core-image"    
+  }
+}

@@ -1,0 +1,8 @@
+body {
+  font-family: Roboto, 'Helvetica', san-serif;
+}
+
+core-list .row {
+  height: 80px;
+  padding: 16px;
+}
