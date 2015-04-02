@@ -14,13 +14,14 @@
     <template is="auto-binding" id="app">
       <core-list data="{{data}}" flex>
         <template>
-          <div class="row">
+          <div class="row" layout horizontal center>
             <core-image class="avatar"
                         src="{{model.avatar}}"
                         preload
-                        sizing="cover">
-            </core-image>
-            <div>{{model.name}}</div>
+                        sizing="cover"
+                          data-index="{{index}}"
+                        ></core-image>
+            <div data-index="{{index}}">{{model.name}}</div>
           </div>
         </template>
       </core-list>
